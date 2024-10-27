@@ -29,7 +29,7 @@
             color: var(--text-dark);
         }
 
-        
+    
         nav {
             position: fixed;
             width: 100%;
@@ -68,7 +68,7 @@
             color: var(--sage);
         }
 
-        
+
         .hero {
             min-height: 100vh;
             display: flex;
@@ -118,7 +118,7 @@
             box-shadow: 20px 20px 0 var(--sage);
         }
 
-    
+
         .about {
             padding: 6rem 2rem;
             background: var(--off-white);
@@ -152,7 +152,7 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
 
-        
+
         .skills {
             padding: 6rem 2rem;
             background: var(--white);
@@ -264,7 +264,7 @@
     </style>
 </head>
 <body>
-    
+
     <nav>
         <div class="nav-content">
             <div class="nav-logo">Portfolio</div>
@@ -272,11 +272,10 @@
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
+                <a href="#organization">Organization</a>
             </div>
         </div>
     </nav>
-
     <section id="home" class="hero">
         <div class="hero-content">
             <div class="hero-text">
@@ -292,7 +291,6 @@
             </div>
         </div>
     </section>
-
     <section id="about" class="about">
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
@@ -312,8 +310,6 @@
             </div>
         </div>
     </section>
-
-    
     <section id="skills" class="skills">
         <h2 class="section-title">Skills</h2>
         <div class="skills-content">
@@ -337,8 +333,6 @@
             </div>
         </div>
     </section>
-
-    
         <section id="organization" class="about">
             <h2 class="section-title">Organizational Experience</h2>
             <div class="about-content">
@@ -361,13 +355,12 @@
                 </div>
             </div>
         </section>
-    
 
     <footer>
         <h3>Connect With Me</h3>
         <div class="social-links">
-            <a href="#https://github.com/laelaluthfiana">GitHub</a>
-            <a href="https://www.linkedin.com/in/laela-luthfiana/">LinkedIn</a>
+            <a href="https://github.com/laelaluthfiana/235150601111018_pemweb-portofolio-part1-ela">GitHub</a>
+            <a href="https://www.linkedin.com/in/laela-luthfiana-rachman-70544b289/">LinkedIn</a>
             <a href="https://www.instagram.com/laelaluthfiana" target="_blank">Instagram</a>
             <a href="mailto:elarachman2845@gmail.com">Email</a>
 
@@ -391,7 +384,6 @@
             delay: 0.7
         });
 
-    
         gsap.to('.about-content', {
             scrollTrigger: {
                 trigger: '.about-content',
@@ -401,6 +393,7 @@
             y: 0,
             duration: 1
         });
+
         gsap.to('.skills-grid', {
             scrollTrigger: {
                 trigger: '.skills-grid',
